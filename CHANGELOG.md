@@ -5,6 +5,7 @@
 ### Enhancements
 
 * Outputs additional information when incompatible lock file error occurs.
+* Throws a IllegalArgumentExcpetion when calling Realm.copyToRealm()/Realm.copyToRealmOrUpdate() with a RealmObject which belongs to another Realm instance in a different thread.
 
 ### Bug fixes
 
